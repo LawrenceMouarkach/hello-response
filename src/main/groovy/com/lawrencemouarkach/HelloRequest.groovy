@@ -4,6 +4,6 @@ import groovy.transform.Canonical
 
 @Canonical
 class HelloRequest {
-    String name;
-    int age;
+    String name
+    int age
 }
